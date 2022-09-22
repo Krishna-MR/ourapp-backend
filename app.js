@@ -21,7 +21,7 @@ const connection = mongoose.connection;
 connection.once('open', () =>{
    console.log('mongodb connection established successfully!')
 
-})
+});
 
 
 var app = express();
